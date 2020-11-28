@@ -1,0 +1,81 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: #ffffff;
+}
+#mainNavbar{
+  font-size: 1.125rem;
+  color: white;
+  border-bottom: 2px solid black;
+}
+
+#rserbia{
+  text-align: center;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+}
+
+#BeogradBG{
+  background-image: url(imgs/beograd.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#TradicijaBG{
+  background-image: url(imgs/tradicionalna.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#IstorijaBG{
+  background-image: url(imgs/istorija.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#TaraBG{
+  background-image: url(imgs/tara2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* BLUR EFFECT */
+
+.blur{
+  -webkit-webkit-transition: all 1s ease;
+  -moz-webkit-transition: all 1s ease;
+  -ms-webkit-transition: all 1s ease;
+  -o-webkit-transition: all 1s ease;
+}
+.blur:hover{
+  -webkit-filter: blur(5px); 
+}
+
+
+
+/* - - - - - */
+
+/* H1 OVER IMAGE  */
+
+.wrapper {
+  display: flex;            /* establish flex container */
+  flex-direction: column;   /* stack flex items vertically */
+  position: relative;       /* establish neares positioned ancenstor for absolute positioning */
+}
+.text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+
+.center-aligned {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  - - - - - */

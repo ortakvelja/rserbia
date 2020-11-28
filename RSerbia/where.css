@@ -1,0 +1,12 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: #ffffff;
+}
+#mainNavbar{
+  font-size: 1.125rem;
+  color: white;
+  border-bottom: 2px solid black;
+}
+.navbar-brand{
+  font-size: 2rem;
+}
